@@ -1,5 +1,9 @@
-import React from 'react';
+import React from "react";
 
-const NotFound = () => <h1>Not found</h1>;
+const NotFound = () => (
+  <React.Fragment>
+    <h1>error:404 page not found</h1>
+  </React.Fragment>
+);
 
 export default NotFound;
